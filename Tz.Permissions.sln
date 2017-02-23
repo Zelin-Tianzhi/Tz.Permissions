@@ -5,6 +5,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tz.Permissions", "Tz.Permis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tz.Permissions.Tests", "Tz.Permissions.Tests\Tz.Permissions.Tests.csproj", "{721BB0A0-C750-462B-B94E-A5F04C0E70A5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tz.Core", "Tz.Core", "{780D6160-E1E6-4D4E-974F-5249241880BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tz.Domain", "Tz.Domain", "{0F5651AE-3B4C-4953-87E6-A3BCE3BEEE2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tz.Application", "Tz.Application", "{15CDBC98-94F8-4143-AE8E-C76B728F0031}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
