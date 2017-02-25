@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -76,9 +76,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tz.Permissions\Tz.Permissions.csproj">
+    <ProjectReference Include="..\Tz.Permissions\Tz.Permissions.Web.csproj">
       <Project>{20F5B535-A4DF-42B2-A781-AB2251253943}</Project>
-      <Name>Tz.Permissions</Name>
+      <Name>Tz.Permissions.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

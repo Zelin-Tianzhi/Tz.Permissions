@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tz.Permissions", "Tz.Permissions\Tz.Permissions.csproj", "{20F5B535-A4DF-42B2-A781-AB2251253943}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tz.Permissions.Web", "Tz.Permissions\Tz.Permissions.Web.csproj", "{20F5B535-A4DF-42B2-A781-AB2251253943}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tz.Permissions.Tests", "Tz.Permissions.Tests\Tz.Permissions.Tests.csproj", "{721BB0A0-C750-462B-B94E-A5F04C0E70A5}"
 EndProject
@@ -33,5 +33,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20F5B535-A4DF-42B2-A781-AB2251253943} = {F4CF257C-B396-4BDB-864B-7C4A4BA5D37F}
+		{721BB0A0-C750-462B-B94E-A5F04C0E70A5} = {8CD96369-B1D5-4542-A3C4-3B567A87B65F}
 	EndGlobalSection
 EndGlobal
