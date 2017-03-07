@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-namespace Tz.Utility
+namespace Tz.Utility.Validations
 {
 	public class ValidationResultCollection : IEnumerable<ValidationResult>
 	{
