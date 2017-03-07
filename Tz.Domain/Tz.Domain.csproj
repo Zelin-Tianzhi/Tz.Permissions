@@ -58,6 +58,10 @@
     <Compile Include="Entity\SysDepartment.cs" />
     <Compile Include="Base\IEntity.cs" />
     <Compile Include="Base\IAggregateRoot.cs" />
+    <Compile Include="Base\EntityBase.cs" />
+    <Compile Include="Base\ValidationFactory.cs" />
+    <Compile Include="Base\AggregateRoot.cs" />
+    <Compile Include="Base\DomainBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -66,6 +70,12 @@
   <ItemGroup>
     <Folder Include="Entity\" />
     <Folder Include="Base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tz.Utility\Tz.Utility.csproj">
+      <Project>{DC065B5C-D288-4A75-9934-FFCDCE982995}</Project>
+      <Name>Tz.Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

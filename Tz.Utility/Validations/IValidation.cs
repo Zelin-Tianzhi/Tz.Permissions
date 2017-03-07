@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Tz.Utility
+namespace Tz.Utility.Validations
 {
 	public interface IValidation
 	{

@@ -1,9 +1,9 @@
 ﻿using System;
-namespace Tz.Utility
+namespace Tz.Utility.Validations
 {
-	public class Valication : IValidation
+	public class Validation : IValidation
 	{
-		public Valication()
+		public Validation()
 		{
 		}
 
