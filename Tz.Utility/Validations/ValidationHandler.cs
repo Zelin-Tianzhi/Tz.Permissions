@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using Tz.Utility.Exceptions;
 namespace Tz.Utility.Validations
 {
 	public class ValidationHandler : IValidationHandler
